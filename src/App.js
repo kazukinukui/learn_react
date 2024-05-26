@@ -57,11 +57,7 @@ function App() {
 
   return (
     <div>
-      <header className="h1 text-white bg-primary p-2 mb-4">
-        Sample page
-      </header>
       <div>
-        <h2>Submit Birth Stone</h2>
         <form onSubmit={handleSubmit}>
           <div>
             <label>Stone:</label>
@@ -75,7 +71,6 @@ function App() {
         </form>
       </div>
       <div>
-        <h2>All Birth Stones</h2>
         <table>
           <thead>
             <tr>
